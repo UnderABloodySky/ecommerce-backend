@@ -1,7 +1,6 @@
 import express from 'express';
 import productRouter from './routes/products.js';
 import cartRouter from './routes/carts.js';
-import { fileURLToPath } from 'url';
 
 import { __dirname } from './utils.js';
 
